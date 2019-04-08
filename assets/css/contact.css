@@ -1,0 +1,55 @@
+body {
+    background-color: #99B998;
+    padding-top: 85px;
+}
+.text-center{
+  text-align: center;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fa-phone:before {
+  content: "\f095";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+  
+  
+.contact-us-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  color: white;
+  font-size: 21px;
+}
+.contact-us-list li{
+  list-style-type: none;
+}
+
+.contact-us-list li a{
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+}
+i{
+  font-size: 20px;
+}
+#contact-me{
+  margin: 10rem;
+}
+#address ul.list-inline{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}

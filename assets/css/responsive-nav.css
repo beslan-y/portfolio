@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+    nav ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    nav ul li {
+      height: 20%;
+    }
+    nav ul li a {
+      font-size: 11px;
+      border: none;
+      letter-spacing: 0.6em;
+      color: #101010;
+    }
+    nav li a:after {
+      font-size: 0.6rem;
+      bottom: -25px;
+    }
+    nav li a:hover:after {
+      transform: translateY(0);
+    }
+    .open-overlay {
+      right: 1rem;
+    }
+    nav li a:before {
+      width: 25px;
+    }
+    .overlay-navigation {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /*------
+    main page content
+          -----*/
+          h1 {
+            color: white;
+            font-size: 3em;
+            font-weight: 550;
+            letter-spacing: .2em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%,-65%,0);
+          }
+    
+    #about-page1  .credits{
+        height: 50vh;
+        margin: 33%;
+
+        
+    }
+    #about-page1 .credits h2, #skills-page2  .credits h2, #contact-page3 h2 {
+        text-align: center;
+        font-size: 21pt;
+    }
+    #about-page1 .credits h3 {
+        text-align:justify;
+        letter-spacing: 1px;
+        font-size: 17pt;
+
+    }
+    #skills-page2 .credits{
+        margin: 20% 25% 14%;
+    }
+
+    #skills-page2 .skills-bar{
+        margin: 0% 11% 0% 6%;
+        
+
+    }
+
+    #skills-page2  .credits h3{
+        text-align: justify;
+        letter-spacing: 0.5px;
+        font-size: 14pt;
+        margin: 0 40px;
+    }
+
+    #contact-page3 .credits{
+        height: 45vh;
+        margin: 31%;
+    }
+
+    #contact-page3 .credits ul{
+        display: inline-block;
+        margin-top: 15pt;
+
+
+    }
+    #contact-page3 .credits ul li{
+      text-align: left;
+      padding: 4pt;
+    }
+    #contact-page3 #address{
+        display: none
+    }
+    #contact-page3 .credits h3{ 
+        text-align: justify;
+        letter-spacing: 0.5px;
+        font-size: 14pt;
+        margin: 53px 38px;
+
+
+    }
+}
